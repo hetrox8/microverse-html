@@ -1,1 +1,78 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Video Page</title>
+ 
+</head>
+<body>
+  <div class="navigation">
+    <!-- Logo -->
+    <a href="#">
+      <img src="logo.png" alt="YouTube logo">
+    </a>
+    <!-- Search bar -->
+    <form>
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </form>
+    <!-- Menu links -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Subscriptions</a></li>
+        <li><a href="#">Library</a></li>
+        <li><a href="#">History</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <div class="video-player">
+    <!-- YouTube video player -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  
+  <div class="thumbnail-images">
+    <!-- Thumbnail images -->
+    <img src="thumbnail1.jpg" alt="Video thumbnail">
+    <img src="thumbnail2.jpg" alt="Video thumbnail">
+    <img src="thumbnail3.jpg" alt="Video thumbnail">
+    <img src="thumbnail4.jpg" alt="Video thumbnail">
+  </div>
+  
+  <div class="sidebar">
+    <!-- Video details -->
+    <h1>Never Gonna Give You Up</h1>
+    <p>Artist: Rick Astley</p>
+    <p>Album: Whenever You Need Somebody</p>
+    <p>Released: 1987</p>
+    <!-- Related videos -->
+    <h2>Related videos</h2>
+    <ul>
+      <li><a href="#">Video 1</a></li>
+      <li><a href="#">Video 2</a></li>
+      <li><a href="#">Video 3</a></li>
+      <li><a href="#">Video 4</a></li>
+    </ul>
+  </div>
+  
+  <div class="comments-section">
+    <!-- Comment form -->
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    
+    <!-- Comment threads -->
+    <div class="comment-threads">
+      <!-- Individual comments -->
+      <div class="comment">
+        <h3>John Smith</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lect
